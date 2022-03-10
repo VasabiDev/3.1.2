@@ -28,13 +28,13 @@
                 <input type="text" th:value="${user.password}" name="password" placeholder="Password" class="form-control">
             </div>
 
-
-            <button type="button" class="btn btn-success" value="Update User">Update</button>
+            <button class="btn btn-success" type="submit" value="Update User">Update</button>
         </form>
+
         <a th:href="@{/users}" class="btn">Back</a>
-<!--        <form action="#" th:action="@{/users}" align=center>-->
-<!--            <button type="submit">back</button>-->
-<!--        </form>-->
+        <form action="#" th:action="@{/users}" align=center>
+            <button type="submit">back</button>
+        </form>
     </div>
     <br/>
 </div>
